@@ -1,0 +1,111 @@
+/*---------------------------------------------通用模块----------------------------------------------*/
+/*首页导航模块*/
+/* 首页导航设置 */
+.index-nav {
+    display:flex;
+    height: 50px;
+    padding: 20px;
+    align-items: center;
+    background-image: linear-gradient(rgb(117, 38, 38), #ffffff);
+    position: relative;
+}
+/* 首页logo设置 */
+.index-nav .logo {
+    width: 253px;
+    height: 40px;
+    background: url('../../static/images/logo.png') no-repeat;
+    background-size:253px 40px;
+}
+
+.index-nav .logo a {
+    font-size: 0px;
+}
+/* 导航列表设置 */
+.nav-list {
+    flex:1;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list a {
+    display: inline-block;
+    color: #5e0b12;
+    margin: 0 15px;
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+}
+/* 鼠标悬停时导航列表文字的颜色变化 */
+.nav-list a:hover {
+    color: #f71f31;
+    text-decoration: underline;
+}
+/* 为下拉列表的定位准备 */
+.heritage,.poem{
+    position: relative;
+}
+/* 下拉列表的总体设置 */
+.menu {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-55%);
+    margin: 10px;
+    width: 80%;
+    padding: 10px;
+    background-image: linear-gradient(rgb(251, 83, 83),
+            rgb(240, 240, 172),
+            rgb(240, 177, 177),
+            rgb(235, 235, 182),
+            rgb(247, 168, 164));
+    border-radius: 20px;
+    display: none;
+}
+.menu li{
+    height:20px;
+    text-align: center;
+    margin: 5px auto;
+}
+/*------------------------------底部模块-------------------------------*/
+.cloth-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 130px;
+    background-image: linear-gradient(rgb(117, 38, 38), #ffffff);
+    color: #5e0b12;
+}
+/* 底部版心设置 */
+.cloth-footer>.container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+/* 底部左模块 */
+.cloth-footer .cloth-left {
+    width: 70%;
+    height: 100%;
+    text-align: center; 
+}
+/* 文字设置 */
+.cloth-footer p {
+    margin-top: 30px;
+    font:italic bold 20px "华文行楷" !important;
+}
+.cloth-footer p:hover{
+    color: #7f1d26;
+    text-decoration: underline;
+}
+/* 底部右模块 */
+.cloth-footer .footer-right {
+    flex:1;
+    margin-top: 20px;
+}
+.cloth-footer li{
+    color: #7f1d26;
+    text-decoration: underline;
+    font:italic bold 16px "华文行楷" !important;
+}

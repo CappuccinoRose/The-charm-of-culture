@@ -1,0 +1,182 @@
+/* 没有菜单的部分的背景颜色设置 */
+body {
+    background-image: linear-gradient(#eda5a5,#eda5a5,#ffffff,#eda5a5);
+}
+/* 对在body下的布局设置 */
+.poet-demo {
+    padding:10% 0;
+    transform: translate3d(0, 0, 0);
+}
+/* 对内容的布局flex */
+.poet-content{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: inset 0 0 10px #fff;
+    border-radius: 20px;
+}
+/* 设置中间的大圆圈 */
+.poet-title {
+    width: 160px;
+    height: 160px;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: inset -2px -2px 2px #5e0b12;
+    position: relative;
+    font:italic bold 25px "华文行楷";
+    line-height: 150px;
+    cursor: pointer;
+    text-align: center;
+    color:#5e0b12;
+    transition: 0.24s 0.2s;
+}
+/* 设置鼠标悬停时边框阴影反转，字体变色，背景改变的样式 */
+.poet-title:hover {
+    box-shadow: inset 2px 2px 2px #5e0b12;
+    color: #f71f31;
+    text-decoration: underline;
+    background: rgba(255, 255, 255, 0.75);
+}
+/* 设置旁边的小圆圈，上面放诗人名字 */
+.poet-title .poet-menu {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: -75px;
+    left: -70px;
+    border: 150px solid transparent;
+    cursor: default;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform 1.4s 0.07s;
+    z-index: -1;
+}
+/* 设置鼠标悬停时小圆圈显示的样式 */
+.poet-title:hover .poet-menu {
+    transition: transform 0.4s 0.08s, z-index 0s 0.5s;
+    transform: scale(1);
+    z-index: 1;
+}
+/* 设置小圆圈中的位置 */
+.poet-title .poet-menu li {
+    position: absolute;
+    top: -110px;
+    left: -110px;
+    transform-origin: 110px 110px;
+    transition: all 0.5s 0.1s;
+}
+/* 设置样式展示的过渡 */
+.poet-title:hover .poet-menu li {
+    transition: all 0.6s;
+}
+/* 设置小圆圈中的内容 */
+.poet-title .poet-menu li a {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    box-shadow: inset -2px -2px 2px #5e0b12;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    font-size:12px;
+    color:#5e0b12;
+    transition: 0.6s;
+}
+
+/* 设置鼠标悬停时的样式 */
+.poet-title .poet-menu li a:hover {
+    color: #f71f31;
+    text-decoration: underline;
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: inset 2px 2px 2px #5e0b12;
+}
+/* 对所有小圆圈的布局 */
+.poet-title:hover .poet-menu li:nth-child(1) {
+    transition-delay: 0.02s;
+    transform: rotate(85deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(1) a {
+    transition-delay: 0.04s;
+    transform: rotate(635deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(2) {
+    transition-delay: 0.04s;
+    transform: rotate(125deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(2) a {
+    transition-delay: 0.08s;
+    transform: rotate(595deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(3) {
+    transition-delay: 0.06s;
+    transform: rotate(165deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(3) a {
+    transition-delay: 0.12s;
+    transform: rotate(555deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(4) {
+    transition-delay: 0.08s;
+    transform: rotate(205deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(4) a {
+    transition-delay: 0.16s;
+    transform: rotate(515deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(5) {
+    transition-delay: 0.1s;
+    transform: rotate(245deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(5) a {
+    transition-delay: 0.2s;
+    transform: rotate(475deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(6) {
+    transition-delay: 0.12s;
+    transform: rotate(285deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(6) a {
+    transition-delay: 0.24s;
+    transform: rotate(435deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(7) {
+    transition-delay: 0.14s;
+    transform: rotate(325deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(7) a {
+    transition-delay: 0.28s;
+    transform: rotate(395deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(8) {
+    transition-delay: 0.16s;
+    transform: rotate(365deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(8) a {
+    transition-delay: 0.32s;
+    transform: rotate(355deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(9) {
+    transition-delay: 0.18s;
+    transform: rotate(405deg);
+}
+
+.poet-title:hover .poet-menu li:nth-child(9) a {
+    transition-delay: 0.36s;
+    transform: rotate(315deg);
+}

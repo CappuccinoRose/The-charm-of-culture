@@ -1,0 +1,473 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	font-size: 18px;
+	position: relative;
+}
+
+.noborder {
+	border: 0 !important;
+}
+
+.bg {
+	margin: 0 auto;
+	width: 100%;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 0rem;
+	padding: 0rem 0.2rem;
+	background-image: linear-gradient(to top,rgb(117, 38, 38),rgb(230, 163, 163));
+}
+
+.border_bg_leftTop {
+	position: absolute;
+	left: -0.008rem;
+	top: -0.04rem;
+	width: 0.37rem;
+	height: 0.05rem;
+	display: block;
+	background:rgb(240, 155, 144) url('../images/title_left_bg.png') no-repeat;
+	background-size: cover;
+}
+
+.border_bg_rightTop {
+	position: absolute;
+	right: -0.01rem;
+	top: -0.01rem;
+	width: 0.1rem;
+	height: 0.1rem;
+	display: block;
+
+	background-size: cover;
+}
+
+.border_bg_leftBottom {
+	position: absolute;
+	left: -0.008rem;
+	bottom: -0.008rem;
+	width: 0.1rem;
+	height: 0.1rem;
+	display: block;
+
+	background-size: cover;
+}
+
+.border_bg_rightBottom {
+	position: absolute;
+	right: -0.01rem;
+	bottom: -0.01rem;
+	width: 0.08rem;
+	height: 0.08rem;
+	display: block;
+	background:rgb(189, 145, 145) url('../images/title_right_bg.png') no-repeat;
+	background-size: cover;
+}
+/* 左边模块 */
+.leftMain {
+	width: 70%;
+	float: left;
+	padding-right: 0.1rem;
+	padding-top: 0.1rem;
+}
+/* 右边模块 */
+.rightMain {
+	width: 30%;
+	float: left;
+	padding-top: 0.1rem;
+}
+
+.leftMain_top {
+	width: 100%;
+	padding-bottom: 0.1rem;
+}
+
+.leftMain_top ul {
+	display: flex;
+}
+
+.leftMain_top ul li {
+	float: left;
+	width: 25%;
+	padding-right: 0.1rem;
+}
+
+.leftMain_top ul li:last-child {
+	padding: 0;
+}
+/* 古籍模块 */
+.leftMain_top ul li .liIn {
+	border: 0.008rem solid rgba(241, 238, 40, 0.5);
+	width: 100%;
+	min-height: 60px;
+	position: relative;
+	padding: 0.08rem 0.05rem;
+}
+
+.leftMain_top ul li .liIn h3 {
+	font-size: 0.08rem;
+	color: #fff;
+	margin-bottom: 0.05rem;
+}
+
+.leftMain_top ul li .liIn .shu {
+	font-size: 0.12rem;
+	color: #f5fa6d;
+	font-family: dig;
+	margin-bottom: 0.02rem;
+}
+
+.leftMain_top ul li .liIn .shu i {
+	font-size: 0.04rem;
+	margin-left: 0.06rem;
+	font-style: normal;
+}
+
+.leftMain_top ul li .liIn .zi {
+	font-size: 0.04rem;
+	color: #fff;
+	position: relative;
+	z-index: 10;
+}
+/* 中间模块 */
+.leftMain_middle {
+	width: 100%;
+	margin-top:20px;
+	padding-bottom: 0.1rem;
+	display: flex;
+}
+
+.leftMain_middle .leftMain_middle_left {
+	width: 60%;
+	padding-right: 0.1rem;
+}
+/* 左边模块 */
+.leftMain_middle .leftMain_middle_left .leftMain_middle_leftIn {
+	border: 0.008rem solid rgba(78, 8, 4, 0.5);
+	width: 100%;
+	min-height: 60px;
+	position: relative;
+	padding: 0.08rem 0.05rem;
+}
+
+.leftMain_middle .leftMain_middle_left .leftMain_middle_leftIn h3 {
+	font-size: 0.08rem;
+	color: #fff;
+	margin-bottom: 0.05rem;
+}
+
+.leftMain_middle .leftMain_middle_left .leftMain_middle_leftIn .treasure {
+	min-height: 200px;
+}
+
+.leftMain_middle .leftMain_middle_right {
+	width: 40%;
+}
+
+/* 中间模块 */
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn {
+	border: 0.008rem solid rgba(78, 8, 4, 0.5);
+	width: 100%;
+	min-height: 60px;
+	position: relative;
+	padding: 0.08rem 0.05rem;
+	
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn h3 {
+	font-size: 0.08rem;
+	color: #fff;
+	margin-bottom: 0.05rem;
+}
+
+/*左边中间部分珍稀宝阁*/
+.treasure_bi {
+	width:100%; 
+	height: 200px;
+	overflow: auto;
+}
+/* 横向进度条 */
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_pai ul li .liIn {
+	display: flex;
+	align-items: center;
+	color: #fff;
+	font-size: 0.06rem;
+	height: 0.18rem;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_pai ul li .liIn .liIn_left {
+	width: 25%;
+	position: relative;
+	padding-left: 0.14rem;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_pai ul li .liIn .liIn_left .bot {
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #f78cf3;
+	border-radius: 1000px;
+	display: block;
+	position: absolute;
+	left: 0.02rem;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_pai ul li .liIn2 .liIn_left .bot {
+	background: #e7feb8;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_pai ul li .liIn3 .liIn_left .bot {
+	background: #fdea8a;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_pai ul li .liIn4 .liIn_left .bot {
+	background: #8ff9f8;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_pai ul li .liIn5 .liIn_left .bot {
+	background: #d890fa;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_pai ul li .liIn6 .liIn_left .bot {
+	background: #05d1fc;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_pai ul li .liIn .liIn_line {
+	width: 58%;
+	height: 0.08rem;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 2000px;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_pai ul li .liIn .liIn_line .line_lineIn {
+	width: 100%;
+	height: 0.08rem;
+	background: #f78cf3;
+	border-radius: 100px;
+	animation: widthMove1 2s ease-in-out;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_pai ul li .liIn2 .liIn_line .line_lineIn {
+	background: #e7feb8;
+	animation: widthMove2 2s ease-in-out;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_pai ul li .liIn3 .liIn_line .line_lineIn {
+	background: #fdea8a;
+	animation: widthMove3 2s ease-in-out;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_pai ul li .liIn4 .liIn_line .line_lineIn {
+	background: #8ff9f8;
+	animation: widthMove4 2s ease-in-out;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_pai ul li .liIn5 .liIn_line .line_lineIn {
+	background: #d890fa;
+	animation: widthMove5 2s ease-in-out;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_pai ul li .liIn6 .liIn_line .line_lineIn {
+	background: #05d1fc;
+	animation: widthMove6 2s ease-in-out;
+}
+
+@keyframes widthMove1 {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 98.5%;
+	}
+}
+
+@keyframes widthMove2 {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 88.5%;
+	}
+}
+
+@keyframes widthMove3 {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 68.5%;
+	}
+}
+
+@keyframes widthMove4 {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 40.5%;
+	}
+}
+
+@keyframes widthMove5 {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 22.5%;
+	}
+}
+
+@keyframes widthMove6 {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 10.5%;
+	}
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_pai ul li .liIn .num {
+	width: 17%;
+	font-family: dig;
+	padding-left: 0.02rem;
+}
+
+/*左边底部*/
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_bi ul {
+	display: flex;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_bi ul li {
+	width: 33.3%;
+	text-align: center;
+	margin-bottom: 0.05rem;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_bi ul li .shu {
+	font-size: 0.14rem;
+	color: #f5fa6d;
+	font-family: dig;
+	padding: 0.12rem 0 0.02rem;
+	font-weight: normal;
+}
+
+.leftMain_middle .leftMain_middle_right .leftMain_middle_rightIn .treasure_bi ul li .zi {
+	font-size: 0.06rem;
+	color: #fff;
+}
+
+/*右边部分*/
+.rightMain .rightMain_top {
+	width: 100%;
+	padding-bottom: 0.1rem;
+}
+
+.rightMain .rightMain_topIn {
+	border: 0.008rem solid rgba(255, 26, 14, 0.5);
+	width: 100%;
+	min-height: 60px;
+	position: relative;
+	padding: 0.02rem 0.05rem;
+}
+
+.rightMain .rightMain_topIn h3 {
+	font-size: 0.08rem;
+	color: #fff;
+	margin-bottom: 0.05rem;
+}
+
+.rightMain .rightMain_topIn .plotly {
+	min-height: 80px;
+}
+
+.rightMain .rightMain_bottom {
+	width: 100%;
+}
+
+.rightMain .rightMain_bottomIn {
+	border: 0.008rem solid rgba(255, 26, 14, 0.5);
+	width: 100%;
+	min-height: 60px;
+	position: relative;
+	padding: 0.08rem 0.05rem;
+}
+
+.rightMain .rightMain_bottomIn h3 {
+	font-size: 0.08rem;
+	color: #fff;
+	margin-bottom: 0.05rem;
+}
+
+/*非物质文化遗产*/
+.rightMain .rightMain_bottomIn .heritage {
+	min-height: 100px;
+	overflow: hidden;
+	position: relative;
+	width:100%; 
+	height:18vh;
+}
+
+/* 对ul和li的总设置 */
+.rightMain .rightMain_bottomIn ul {
+	display: flex;
+	width: 100%;
+}
+.rightMain .rightMain_bottomIn ul li {
+	width:20%;
+    text-align: center;
+	color: #fff;
+	font-size: 0.06rem;
+	height: 0.2rem;
+	line-height: 0.2rem;
+}
+/* 对ul和li的个别设置 */
+.rightMain .rightMain_bottomIn .heritage_title {
+	position: relative;
+	min-height: 20px;
+}
+.rightMain .rightMain_bottomIn .heritage_item {
+	animation: 14s gundong linear infinite normal;
+	animation: 14s gundong linear infinite normal;
+}
+
+@keyframes gundong {
+	0% {
+		transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+	100% {
+		transform: translate3d(0, -30vh, 0);
+		transform: translate3d(0, -30vh, 0);
+	}
+}
+
+.rightMain .rightMain_bottomIn .item {
+	border-bottom: 0.008rem solid rgba(255, 26, 14, 0.5);
+}
+
+.rightMain .rightMain_bottomIn li:last-child {
+	width:40%;
+}
+.rightMain .rightMain_bottomIn li:nth-child(2) {
+	width:30%;
+}

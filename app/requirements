@@ -1,0 +1,19 @@
+所有文件所导入外部的库
+from selenium import webdriver
+from fake_useragent import UserAgent
+from selenium.webdriver.chrome.options import Options
+import logging
+import json
+import time
+import random
+import plotly.express as px
+from urllib.parse import urljoin
+from selenium.common import TimeoutException
+import re
+from urllib.parse import urljoin
+from selenium.webdriver.common.by import By
+from lxml import etree
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
+from flask import Flask, render_template,jsonify,request

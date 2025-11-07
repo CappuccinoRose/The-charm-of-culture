@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>404页面</title>
+	<!-- 设置屏幕宽度为设备宽度，初始缩放比例为1.0 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- 定义网站的描述和关键词 -->
+	<meta name="description" content="文化魅力是一个致力于传承和弘扬中华优秀传统文化的平台，提供丰富的古籍典藏、非物质文化遗产和著名诗人的介绍。
+				" />
+	<meta name="keywords" content="
+			   文化魅力,中华传统文化,古籍典藏,非物质文化遗产,著名诗人，敦煌壁画，文物珍宝，统计图展
+				 " />
+	<!-- 设置网站图标 -->
+	<link rel="shortcut icon" href="../../static/favicon.ico" type="image/x-icon">
+	<!-- 导入基础样式 -->
+	<link rel="stylesheet" href="../static/css/base.css">
+	<!-- 导入自定义样式 -->
+	<link rel="stylesheet" href="../static/css/404.css">
+	<!-- --引入jQuery-- -->
+	<script src="../static/js/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+	<div class="code">
+		<p>ERROR 404</p>
+	</div>
+	<div class="road">
+		<div class="shadow">
+			<div class="shelt">
+				<div class="head">
+					<div class="eyes">
+						<div class="lefteye">
+							<div class="eyeball"></div>
+							<div class="eyebrow"></div>
+						</div>
+						<div class="righteye">
+							<div class="eyeball"></div>
+							<div class="eyebrow"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hat"></div>
+			<div class="bubble">
+				<a href="{{ url_for ('index')}}">返回首页吗？</a>
+			</div>
+		</div>
+		<div class="text_404">
+			<p>您访问的页面尚未开发哦！</p>
+			<div class="contact">
+				邮箱:3163880836@qq.com<br>
+				版权所有
+				<img src="../static/images/版权.png" alt="版权">
+				信管2301-刘紫涵-1602230121
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	var parallel = 17;
+	var headHeight = 150;
+	var opacity = 0;
+	var eyeBrowHeight = 0;
+	var step = 1;
+	var timer_show;
+	var timer_eyebrow;
+
+	document.onmousemove = mouseMove;
+
+	function mouseMove(e) {
+		/*眼球转动*/
+	}
+
+	function startAnimation() {
+		timer_show = setInterval('rotateCounterclockwise()', 55);
+		window.setTimeout(function () {
+			window.clearInterval(timer_eyebrow);
+			timer_show = setInterval('rotateClockwise()', 55);
+		}, 1000 * 6);
+	}
+
+	function rotateCounterclockwise() {
+		parallel = parallel - 0.3;
+		headHeight = headHeight - 2.5;
+		opacity = (17 - parallel) / 17;
+		if (parallel > 0) {
+			$('.head').css('top', headHeight + 'px');
+			$('.hat').css('transform', 'rotate(' + parallel + 'deg)');
+			//		$('.code p').css('opacity',opacity);
+			$('.bubble').css('opacity', opacity);
+		} else {
+			window.clearInterval(timer_show);
+			timer_eyebrow = setInterval('flash()', 10);
+
+		}
+	}
+
+	function rotateClockwise() {
+		parallel = parallel + 0.3;
+		headHeight = headHeight + 2.5;
+		opacity = (17 - parallel) / 17;
+		if (parallel <= 17) {
+			$('.head').css('top', headHeight + 'px');
+			$('.hat').css('transform', 'rotate(' + parallel + 'deg)');
+			//		$('.code p').css('opacity',opacity);
+			$('.bubble').css('opacity', opacity);
+		} else {
+			window.clearInterval(timer_show);
+			startAnimation();
+		}
+	}
+
+	function flash() {
+		eyeBrowHeight += step;
+		$('.lefteye .eyebrow').css('clip', 'rect(0px 38px ' + eyeBrowHeight + 'px 0px)');
+		$('.righteye .eyebrow').css('clip', 'rect(0px 38px ' + eyeBrowHeight + 'px 0px)');
+		if (eyeBrowHeight % 19 === 0)
+			step = -step;
+	}
+
+	startAnimation();
+</script>
+
+</html>

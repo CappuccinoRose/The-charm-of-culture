@@ -1,0 +1,248 @@
+/* 列表展示 */
+#listShow {
+    background:#f1d0d0;
+    margin: 30px auto;
+    border-radius: 20px;
+    border-collapse: collapse; /* 用于合并表格边框 */
+}
+/* 表头背景色 */
+#listShow th {
+    padding: 10px;
+    border: 2px solid #fff;
+    color: #5e0b12;
+    background: linear-gradient(#fff, #f2a9a9);
+    box-shadow:inset 2px 2px 2px #5e0b12;
+    font-size: 25px;
+}
+
+/* 数据的内容设置 */
+#listShow td {
+    padding: 10px;
+    border: 2px solid #fff;
+    color: #7a6364;
+    font-size: 20px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+#listShow td:hover{
+    color: #f71f31;
+    text-decoration: underline;
+}
+.li-item {
+    -webkit-animation: fadeIn 1s 1 0s;
+    -moz-animation: fadeIn 1s 1 0s;
+    -ms-animation: fadeIn 1s 1 0s;
+    -o-animation: fadeIn 1s 1 0s;
+    animation: fadeIn 1s 1 0s;
+}
+/**淡入淡出过渡效果**/
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        /*初始状态 透明度为0*/
+    }
+
+    50% {
+        opacity: 0.5;
+        /*中间状态 透明度为0.5*/
+    }
+
+    100% {
+        opacity: 1;
+        /*结尾状态 透明度为1*/
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+        /*初始状态 透明度为0*/
+    }
+
+    50% {
+        opacity: 0.5;
+        /*中间状态 透明度为0.5*/
+    }
+
+    100% {
+        opacity: 1;
+        /*结尾状态 透明度为1*/
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+        /*初始状态 透明度为0*/
+    }
+
+    50% {
+        opacity: 0.5;
+        /*中间状态 透明度为0.5*/
+    }
+
+    100% {
+        opacity: 1;
+        /*结尾状态 透明度为1*/
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+        /*初始状态 透明度为0*/
+    }
+
+    50% {
+        opacity: 0.5;
+        /*中间状态 透明度为0.5*/
+    }
+
+    100% {
+        opacity: 1;
+        /*结尾状态 透明度为1*/
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+        /*初始状态 透明度为0*/
+    }
+
+    50% {
+        opacity: 0.5;
+        /*中间状态 透明度为0.5*/
+    }
+
+    100% {
+        opacity: 1;
+        /*结尾状态 透明度为1*/
+    }
+}
+
+/* --------------------------------------------------分页栏-------------------------------------------- */
+/* 页码样式设置 */
+.turn-page {
+    float: right;
+    font-size: 20px;
+    color: #5e0b12;
+    padding-bottom: 20px;
+}
+
+/* 统计语句 */
+.turn-page .turn-num {
+    float: left;
+    color: #bd6d74;
+    margin-top: 4px;
+}
+
+.turn-page .turn-ul {
+    float: left;
+    margin: 0 30px 0 20px;
+}
+
+/* 页面方格设置 */
+.turn-page .turn-ul li {
+    list-style: none;
+    float: left;
+    width: 28px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    box-shadow: 0 0 3px #5e0b12;
+    margin-left: -1px;
+    cursor: pointer;
+}
+
+.turn-page .turn-ul i {
+    font-style: normal;
+    display: inline-block;
+    width: 25px;
+}
+
+.turn-page .turn-ul li.tz {
+    color: #5e0b12;
+    font-family: simsun;
+}
+
+/* 鼠标悬停和点击时方格的样式设置 */
+.turn-page .turn-ul li:hover,
+.turn-page .turn-ul li:active {
+    background: #f71f31;
+    color: #fff;
+}
+
+/* 当前所在页面的方格设置 */
+.turn-page .turn-ul li.on {
+    background: #f71f31;
+    color: #fff;
+}
+
+.turn-page .turn-ul li.inp {
+    width: 36px;
+    margin: 0 10px 0 20px;
+}
+
+.turn-page .turn-ul li.slh {
+    border: none;
+    font-size: 16px;
+    margin-top: -3px;
+}
+
+.turn-page .turn-ul li.slh:active {
+    background: none;
+}
+
+.turn-page .turn-ul li.inp:active {
+    background: none;
+}
+
+.turn-page .turn-ul .li-inp {
+    width: 36px;
+    height: 24px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+/*------------------------------底部模块-------------------------------*/
+footer{
+    margin-top:100px;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(rgb(117, 38, 38), #ffffff);
+    color: #5e0b12;
+}
+/* 底部版心设置 */
+footer>.container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+/* 底部左模块 */
+.footer-left {
+    width: 70%;
+    height: 100%;
+    text-align: center; 
+}
+/* 文字设置 */
+p {
+    margin-top: 30px;
+    font:italic bold 20px "华文行楷" !important;
+}
+p:hover{
+    color: #7f1d26;
+    text-decoration: underline;
+}
+/* 底部右模块 */
+.footer-right {
+    flex:1;
+    margin-top: 20px;
+}
+li{
+    color: #7f1d26;
+    text-decoration: underline;
+    font:italic bold 16px "华文行楷" !important;
+}

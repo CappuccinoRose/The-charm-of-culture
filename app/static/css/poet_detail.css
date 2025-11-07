@@ -1,0 +1,60 @@
+/* 诗人信息 */
+.poet_info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow:inset 2px 2px 2px #5e0b12;
+}
+.poet_info>li{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #5e0b12;
+    text-align: center;
+}
+.poet_name,.poet_dynasty{
+    text-align: left !important;
+    font-size:25px;
+}
+.poet_brief{
+    font-size: 20px;
+    font-weight: normal;
+    text-indent: 2em;
+}
+/* 诗人作品 */
+.poems{
+    margin: 20px auto;
+}
+/* 每一行 */
+.poem_info{
+    display:flex;
+    flex-wrap: wrap;
+    box-shadow:inset -2px -2px 2px #5e0b12;
+    cursor: pointer;
+}
+.poem_title,.poem_author{
+    width:50%;
+    padding: 20px;
+}
+.poem_title{
+    font-size: 25px;
+}
+.poem_author{
+    text-align: right;
+}
+.poem_content{
+    width:100%;
+    padding: 20px;
+}
+span{
+    font-weight: normal;
+    font-size: 16px;
+    color: #5e0b12;
+    transition: all 0.3s ease-in-out;
+}
+span:hover{
+    color: #f71f31;
+    text-decoration: underline;
+}

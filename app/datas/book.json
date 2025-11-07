@@ -1,0 +1,242 @@
+[
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_BigA1.jpg",
+        "title": "中华古籍资源库",
+        "text_description": "“中华古籍资源库”是国家图书馆（国家古籍保护中心）建设的综合性古籍特藏数字资源发布共享平台，是“中华古籍保护计划”的重要成果。该平台遵循边建设、边服务原则，目前在线发布资源包括国家图书馆藏善本和普通古籍、甲骨、敦煌文献、碑帖拓片、西夏文献、赵城金藏、地方志、家谱、年画、老照片等，以及馆外和海外征集资源，总量约10万部（件）。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A16.jpg",
+        "title": "国家珍贵古籍名录知识库",
+        "text_description": "该库发布一至六批《国家珍贵古籍名录》内容，收录其中书影图像及说明文字内容，可实现多维度查询与探索。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A08.jpg",
+        "title": "年画撷英",
+        "text_description": "国家图书馆收藏了杨柳青、朱仙镇等地制作的4000余幅年画作品，从中精选出一部分制作了该库，并为每种年画编写了内容说明，重点介绍了该年画的故事梗概、历史背景、制作特色和相关知识。目前发布元数据及影像302组。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A02.jpg",
+        "title": "数字方志",
+        "text_description": "地方志文献为我国所特有，也是国家图书馆独具特色的馆藏之一，所存文献数量与品质极高。该数据库以国家图书馆藏地方志文献建设，主要包括为清代（含清代）以前的方志资源6529种。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A10.jpg",
+        "title": "敦煌遗珍",
+        "text_description": "IDP是一个开创性的国际性协作项目，目标是使敦煌及丝绸之路东段其他考古遗址出土的写本、绘画、纺织品以及艺术品的信息与图像能在互联网上自由地获取，并通过教育与研究项目鼓励使用者利用这些资源。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A03.jpg",
+        "title": "赵城金藏",
+        "text_description": "《赵城金藏》被誉为国家图书馆四大镇馆之宝之一。《赵城金藏》是在金代刻的一部大藏，因为它藏在赵城县（今属山西洪洞县）广胜寺，所以后人将它定名为《赵城金藏》。全藏约七千卷左右，六千多万字，现存四千余卷。2017年12月28日，国家图书馆《赵城金藏》1281种正式发布。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A01.jpg",
+        "title": "数字古籍",
+        "text_description": "国家图书馆收藏古籍15万部，其中善本古籍直接继承了南宋缉熙殿、元翰林国史院、明文渊阁、清内阁大库等皇家珍藏，以及明清以来许多私人藏书家的毕生所聚。宋元旧椠、明清精刻琳琅满目。通过全彩影像数字化和缩微胶卷转化影像方式建设，从2016年9月28日起陆续在线发布，目前已发布馆藏古籍2万余部。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A04.jpg",
+        "title": "宋人文集",
+        "text_description": "国家图书馆精选所藏宋人文集善本二百七十五部，首选宋元刊本，次及明清精抄精刻，或经名家校勘题跋之本，通过缩微胶卷还原数字影像，并辅以详细书目建成本全文影像数据库，目前已发布275部，免费呈献公众利用。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A12.jpg",
+        "title": "中华医药典籍",
+        "text_description": "图书馆收藏的文献典籍是整理研究的基础资料，为使读者能够通过互联网检索、利用中医文献资源，国家图书馆（国家古籍保护中心）将逐步建设中华医药典藏资源库，目前首批对221种中医古籍影像进行发布测试。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A14.jpg",
+        "title": "日本永青文库捐赠汉籍",
+        "text_description": "2018年6月26日，在《中日和平友好条约》缔结40周年之际，日本前首相、日本公益财团法人永青文库理事长细川护熙先生将36部4千余册汉籍无偿赠与中国国家图书馆。此次捐献是1949年以来日本友人向中国捐赠汉籍规模最大的一次，为新时代中日民间文化交流与合作发挥了积极的作用。\n\t\t\t\t\t\t\t\t\t\t\t\t\t该批汉籍保存完整，包括中国版本25部、日本版本11部，共计793种，涵盖经、史、子、集四部，其中不乏我国早已失传的重要典籍。为此，中国国家图书馆将该批汉籍全部进行数字化，并对其中5部丛书依照子目拆分标引，分别归入经、史、子、集四部，方便全球读者研究使用。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A13.jpg",
+        "title": "中华寻根网",
+        "text_description": "中华寻根网是以提供姓氏源流和家谱资源服务为核心、方便海内外华人寻根问祖活动的网络平台。“中华寻根网”记录各姓家族世系、历史，反映中华民族生息、繁衍、迁移、奋斗的历程，目前提供500多个姓氏源流、2000多部家谱和6000种其他文献的阅览，以及自建家谱，交流联谊的互动服务。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A11.jpg",
+        "title": "徽州善本家谱",
+        "text_description": "徽州善本家谱印刷资料数据库是中国国家图书馆与法国远东学院的合作项目，收录了中国国家图书馆藏善本古籍中徽州家谱243种286部，配有书影5437幅。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A06.jpg",
+        "title": "甲骨世界",
+        "text_description": "甲骨文是中国近代学术史上的四大发现之一，大大改变了殷商史研究史料不足征的困境，为研究商代天文、地理、军事、农业、交通等提供了重要资料。2013年甲骨文首次入选《国家珍贵古籍名录》，2017年中国甲骨文入选《世界记忆遗产名录》。\n\t\t\t\t\t\t\t\t\t\t\t\t\t  国家图书馆自1932年开始入藏甲骨，经多方搜求和国家拨交，现藏甲骨实物35651片，有罗振玉、孟定生、胡厚宣、刘体智、郭若愚、曾毅公等名家旧藏。其中刘体智旧藏甲骨最多，多达28450片。“甲骨拓片”资源库在线发布国家图书馆藏甲骨拓片影像及书目数据，目前正按计划逐年增加，在库数据已超过1.1万条。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A05.jpg",
+        "title": "碑帖菁华",
+        "text_description": "以国家图书馆藏有的历代甲骨、青铜器、石刻等类拓片二十三万余件为基础建设的数据库，内容涉及历史、地理、政治、经济、军事、民族、民俗、文学、艺术、科技、建筑等方面。2019年11月12日又新增发布2595种馆藏明清碑刻拓片数字资源，现有元数据2.5万余条，影像3.1万余幅。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A15.jpg",
+        "title": "西夏碎金",
+        "text_description": "以国家图书馆保存的西夏、元代孤本及各种西夏的珍贵实物资料为基础建设的数据库。包括西夏文献书目数据124条，原件影像近5000拍。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A09.jpg",
+        "title": "前尘旧影",
+        "text_description": "该资源库收录了国家图书馆收藏的新旧照片3074组，真实生动地记录了过去的社会事件、历史人物、城乡面貌、名胜古迹和建筑服饰等，人们可从中解读出不同历史时期特定事物的形象特征和真实信息，具有十分重要的历史价值。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A17.jpg",
+        "title": "近现代名家手稿",
+        "text_description": "1954年，国家图书馆前身北京图书馆为保存重要文化史料，向社会各界征集近现代政治家、思想家、科学家、文化、历史名人手稿，由此创设名家手稿文库。目前收藏有梁启超、王国维、鲁迅、巴金、傅雷等500多位近现代及当代各界名家的8000余种手稿。国家图书馆将陆续发布部分馆藏名家手稿影像数据，供广大读者在线阅览。2024年首批发布作家阮章竞（1914-2000）写于上世纪40至60年代的笔记手稿。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_A18.jpg",
+        "title": "民族文字古籍特藏",
+        "text_description": "我国是历史悠久的多民族国家。浩如烟海的民族典籍是中华民族历史演进、交流交融的重要见证，是传承发展中华文明的重要载体。这些典籍种类繁多、数量巨大、内容丰富、特色突出，是中华民族悠久历史文化的重要组成部分，更是人类文明的宝贵遗产。国家图书馆以铸牢中华民族共同体意识为旨归，深入发掘馆藏资源，于2023年9月在“中华古籍资源库”隆重推出“民族文字古籍特藏资源库”。\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t该资源库是国内首个少数民族文字古籍综合型数字资源库，既是国家图书馆（国家古籍保护中心）组织建设的大型、专业性古籍特藏数字资源共享平台，也是“中华古籍保护计划”的重要成果之一。植根国家图书馆馆藏少数民族文字古籍资源，资源库秉承科学、安全、开放、共享的服务理念，采用先进的数字影像技术手段，此次精选16个文种少数民族文字古籍，以飨读者、服务社会。今后根据我馆少数民族文字古籍数字化进度，将不断丰富该资源库发布数量和内容。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B05.jpg",
+        "title": "哈佛燕京",
+        "text_description": "哈佛大学哈佛燕京图书馆藏中文善本古籍特藏，以其质量之高、数量之大著称于世。为了方便海内外学人便捷地利用这些资料进行研究，同时以数字化形式保存这些中华古籍精品，2009年国家图书馆与哈佛大学哈佛燕京图书达成协议，对哈佛燕京图书馆所藏中文善本和齐如山专藏进行数字化。目前在线发布经部和史部善本数字资源741部，另有齐如山戏曲小说专藏204种。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B03.jpg",
+        "title": "中华古籍联合书目",
+        "text_description": "中华古籍善本国际联合书目系统是由中文善本书国际联合目录项目发展而来的新数据库，著录了三十余家海内外图书馆所藏古籍善本，数据达2万多条，并配有1.4万余幅书影。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B04.jpg",
+        "title": "东京大学东洋文化研究所汉籍全文影像数据库",
+        "text_description": "东京大学东洋文化研究所收藏有大量中国古籍，其中包括东方文化学院东京研究所的旧藏以及大木幹一、长泽规矩也、仓石武四郎等各具特色的个人收藏。2009年11月，东洋文化研究所将所藏中文古籍4000余种，以数字化方式无偿提供给中国国家图书馆，在国图网站上面向读者提供服务。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B06.jpg",
+        "title": "法藏敦煌遗书",
+        "text_description": "2015年，法国国家图书馆与中国国家图书馆达成合作意向，由法国国家图书馆向中国国家图书馆赠送馆藏全部敦煌遗书高清数字资源。在双方共同努力下，实现了这批敦煌遗书的数字化回归，并于2018年3月5日正式在线发布，共计5300余号3.1万余拍。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B28.jpg",
+        "title": "珍秘公天下",
+        "text_description": "“藏之名山，传之其人”。藏宝于民在文化传承中有着举足轻重的作用，历代藏书家对保护和传承我国古代典籍文化更有着不可磨灭的贡献。私家藏书是中国藏书文化的一部分，是公藏的有益补充。\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t本资源库中的数字古籍，皆由藏书家捐赠国家图书馆，并授权国家图书馆将这些珍藏之本借“中华古籍资源库”平台为大众提供公益服务。所赠古籍数字资源的作品权利相关解释权归属藏书家。国家图书馆欢迎更多有情怀的藏书家们与我们一起努力，让珍贵古籍惠及更多民众。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B01.jpg",
+        "title": "天津图书馆古籍",
+        "text_description": "为进一步丰富古籍数字资源品种和版本，满足广大读者使用需求，2014年底，天津图书馆向国家图书馆（国家古籍保护中心）提供总量约5,800余种300万拍明清古籍数字资源，该批资源经加工后，于2018年9月28日、2019年1月28日分两批发布。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B02.jpg",
+        "title": "上海图书馆家谱",
+        "text_description": "上海图书馆现藏有家谱近3万余种30余万册共计365个姓氏，收藏的家谱覆盖全国27个省、自治区及直辖市，是国内外收藏中国家谱原件最多的公藏机构，有着“全球中国家谱第一藏”之美誉。国家图书馆与上海图书馆合作，征集该馆所藏明清家谱资源2200余种，在国图网站发布使用。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_BigB1.jpg",
+        "title": "云南图书馆古籍",
+        "text_description": "云南省图书馆将该馆267种1263册古籍数字资源提供国家图书馆（国家古籍保护中心），这批资源均是该馆所藏珍贵的、有代表性的古籍文献，特别是明代云南丽江木氏土司家族著述，更是明代少数民族汉文著述的代表。该批资源于2019年11月12日、2022年9月9日分两批在线发布。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B26.jpg",
+        "title": "地方馆征集碑帖",
+        "text_description": "征集碑帖是一种有文化历史内涵的艺术品。碑是指刻上文字纪念事业、功勋或作为标记的石头，贴是指学习写字时摹仿的样本，碑帖是指石刻、木刻文字的拓本或印本。碑帖资源库目前包括甘肃省图书馆的《敦煌写经》、大连市图书馆的《碑记拓本》等。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B24.jpg",
+        "title": "地方馆征集地方志",
+        "text_description": "地方志作为“一方之全史”，“地方百科全书”，是中国传统文化典籍的一部分，是我国独有的文化传承载体，其中蕴含着丰富的信息资源。地方志系统、完整、真实地记录和再现了地区的历史与现状，是当地政治、经济、社会、文化的生动写照，种类包括通志（存目）、府县志、乡镇志、山水志等，既有建国前的古籍方志，也有的新编方志，详尽地反映了各地数百年间政治、经济、军事、人文、山川、地理、任务、谣谚、方言等各领域的民生省情。地方志更偏向古籍类。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B25.jpg",
+        "title": "地方馆征集家谱",
+        "text_description": "上海图书馆现藏有家谱近3万余种30余万册共计365个姓氏，收藏的家谱覆盖全国27个省、自治区及直辖市，是国内外收藏中国家谱原件最多的公藏机构，有着“全球中国家谱第一藏”之美誉。国家图书馆与上海图书馆合作，征集该馆所藏明清家谱资源2200余种，在国图网站发布使用。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_BigC1.jpg",
+        "title": "中华再造善本",
+        "text_description": "该库是将“中华再造善本工程”中影印出版的珍贵古籍善本进行图像数字化，高清展示，最大限度保留版本细节信息，配版本专家撰写的提要，能够对不同版本的同一种书进行快速筛选，并可将不同版本并排显示，便于进行版本对比，展示古籍版本源流；具备印章识别等拓展功能。该库一期收录古籍善本757种。二期收录“明代编”、“清代编”、“少数民族文字古籍编”的古籍善本 554 种，共计 26万余叶。",
+        "permission": "仅限内网访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B13.jpg",
+        "title": "中国基本古籍库",
+        "text_description": "包括先秦至民国的名著、各学科基本文献及特殊著作等。总计收书1万种、17万卷，版本12500个、20万卷，全文17亿字、影像1200万页。",
+        "permission": "仅限内网访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B11.jpg",
+        "title": "全唐诗分析系统",
+        "text_description": "《全唐诗分析系统》包含57000多首唐诗。可进行全文检索、重出诗检索、诗人小传检索和高级检索，支持严格数据检索和简繁体混合模式检索。具有重出诗提取、格律诗标注、字及词组的频率分布统计、用户自作诗的格律分析等智能化功能。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B10.jpg",
+        "title": "全宋诗分析系统",
+        "text_description": "《全宋诗分析系统》包含254240多首宋诗。可进行全文检索、重出诗检索、诗人小传检索和高级检索，支持严格数据检索和简繁体混合模式检索。具有重出诗提取、格律诗标注、字及词组的频率分布统计、用户自作诗的格律分析等智能化功能。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B12.jpg",
+        "title": "二十五史研习系统",
+        "text_description": "《二十五史研习系统》是一套辅助对中国古代文学、中国古代史学习与研究的工具软件，该数据库以正史中二十四史以及《清史稿》的史料文献为基础，辅以从先秦到明清的大量史料文献，包含目录、章节、引文、注释等信息，并将所有文献信息做成索引文件，可快速定位检索。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B08.jpg",
+        "title": "中华经典古籍库",
+        "text_description": "该库是中华书局首次推出的大型古籍数据库产品。第一辑收录了近300种中华书局出版的整理本古籍图书，涵盖经史子集各部，包含了“二十五史”、“通鉴系列”、“新编诸子集成”、“清人十三经注疏”、“史料笔记丛刊”、“学术笔记丛刊”、“古典文学基本丛书”、“佛教典籍选刊”等经典系列，总计约2亿字，后期将不断递增文献数据。",
+        "permission": "仅限内网访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B09.jpg",
+        "title": "国学宝典",
+        "text_description": "该库收录上起先秦、下至民国两千多年用汉字作为载体的历代典籍， 并收录了清代至当代学者对相关古籍研究的重要成果，共4千多种作品。分为经部、史部、子部、集部、丛书、通俗小说六大模块。该数据库将中国古代典籍作品与CNKI期刊、报纸、博士论文、硕士论文、工具书等知识资源整合，具有CNKI知网节功能。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B20.jpg",
+        "title": "全四库",
+        "text_description": "全四库分为4编，第1编四库著录书，汇辑清修《四库全书》时采录之书3460种，第2编四库存目书，汇辑清修《四库全书》时列为存目之书（丛书除外）4752种，第3编四库奏毁书，汇辑清修《四库全书》时毁弃之书621种，第4编四库未收书，汇辑清修《四库全书》时未见未收之书167种，合计共收录先秦至乾隆初历代典籍9000种。皆选用善本，其中宋本33个、元本34个、明本2712个、清本2699个、民国本52个、外国本12个，四库本（文渊阁本或文渊阁补配文津阁本）3458个。",
+        "permission": "仅限内网访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_BigB2.jpg",
+        "title": "四部丛刊增补版",
+        "text_description": "该库在原有《四部丛刊》（包含504种典籍）内容基础上，新增补《四部备要》（包含365种典籍），该版本收录典籍总数为869种。首次开放《四部丛刊》张元济的全部校勘内容。该库可实现原文珍本图像与可检全文的快速链接切换，并加入朝代-纪元转换、古代名人、官职、古代地名等工具，从时间-空间-人物三维空间帮助读者检索。",
+        "permission": "内外网均可访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B21.jpg",
+        "title": "历代石刻史料汇编",
+        "text_description": "《历代石刻史料汇编》全文检索版是由几十位石刻文献研究专家精心选编。从现存的千余种的金石志书（包括地方志中的金石志），经过认真对比去重，从中精心辑录出一万七千余篇石刻文献，并附有历代金石学家撰写的考释文字，总计1500万字。",
+        "permission": "仅限内网访问"
+    },
+    {
+        "src": "http://read.nlc.cn/static/style/css/images/zt_gujijieshi/YMH_GJZTJS_pic_B07.jpg",
+        "title": "韩使燕行录",
+        "text_description": "明清两朝，来华的朝鲜使团有关人员将其在华时的所见所闻著录成书，这在朝鲜的历史上统称为《燕行录》。该库为韩国成均馆大学收藏的《燕行录》，内容包含380种具有代表性和研究价值的燕行书籍，记载了路途、使行人员、贡品和沿路所见的风景，对于中国当时的政治、经济、文化、社会风俗都有详略各异的记述。",
+        "permission": "内外网均可访问"
+    }
+]

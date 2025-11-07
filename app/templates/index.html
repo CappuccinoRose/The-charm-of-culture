@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<!-- 设置网站文字为中文 -->
+<meta lang="zh-CN" />
+
+<head>
+  <meta charest="utf-8">
+  <title>文化魅力</title>
+  <!-- 设置屏幕宽度为设备宽度，初始缩放比例为1.0 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- 定义网站的描述和关键词 -->
+  <meta name="description" content="文化魅力是一个致力于传承和弘扬中华优秀传统文化的平台，提供丰富的古籍典藏、非物质文化遗产和著名诗人的介绍。
+             " />
+  <meta name="keywords" content="
+            文化魅力,中华传统文化,古籍典藏,非物质文化遗产,著名诗人，敦煌壁画，文物珍宝，统计图展
+              " />
+  <!-- 设置网站图标 -->
+  <link rel="shortcut icon" href="../static/favicon.ico" type="image/x-icon">
+  <!-- 导入通用样式 -->
+  <link rel="stylesheet" href="../static/css/common.css">
+  <!-- 导入基础样式 -->
+  <link rel="stylesheet" href="../static/css/base.css">
+  <!-- 导入自定义样式 -->
+  <link rel="stylesheet" href="../static/css/index.css">
+</head>
+
+<body>
+  <!--头部模块-->
+  <header>
+    <!--首页导航栏-->
+    <nav class="index-nav">
+      <!--网站logo设计-->
+      <h1 class="logo">
+        <a href="#">文化魅力</a>
+      </h1>
+      <!--首页导航栏列表-->
+      <ul class="nav-list">
+        <li><a href="javascript: void(0)">首页</a></li>
+        <li><a href="{{ url_for('book') }}">古籍典藏</a></li>
+        <li class="heritage">
+          <a href="{{ url_for('heritage') }}">非物质文化遗产</a>
+        </li>
+        <li class="poem">
+          <a href="{{ url_for('poet') }}">中国著名诗人</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!--入口模块-->
+  <div class="entry">
+    <!--版心-->
+    <div class="container">
+      <!--轮播图片-->
+      <ul class="banner">
+        {% if links %}
+        {% for src in links %}
+        <li><img src="{{ src }}" alt="--轮播图片--"></li>
+        {% endfor %}
+        {% endif %}
+      </ul>
+      <!--侧边栏选项-->
+      <ul class="category-menu">
+        <li><a href="{{ url_for('e_dunhuang')}}" title="领略敦煌壁画">华丽敦煌</a></li>
+        <li><a href="{{ url_for('treasure')}}" title="领略文物珍宝">珍稀宝阁</a></li>
+        <li><a href="{{ url_for('statistic')}}" title="了解统计总数">统计图展</a></li>
+      </ul>
+
+      <!--左右按钮-->
+      <div class="prevArrow"></div>
+      <div class="nextArrow"></div>
+      <!--下边按钮-->
+      <ol class="indicator">
+      </ol>
+    </div>
+  </div>
+  <!--汉服模块-->
+  <div class="cloth-show container">
+    <!--展示标题-->
+    <div class="hd">
+      <!-- 使用我学习的3d转换实现文字变化，实质是不同的容器出现在屏幕前 -->
+      <!--后显示的文字-->
+      <div class="back">
+        <div>
+          <h2 class="fl">
+            <img src="../static/images/玫瑰.png" alt="玫瑰">
+            顾盼生姿
+          </h2>
+          <span class="fl">将爱与思念编织</span>
+        </div>
+        <a href="{{ url_for('cloth') }}" class="fr" title="领略汉服之美" style="margin-right:10px;font-size:20px">
+          <strong>华夏衣冠</strong></a>
+      </div>
+      <!--前显示的文字-->
+      <div class="font">
+        <div>
+          <h2 class="fl">
+            翩若惊鸿
+            <img src="../static/images/玫瑰.png" alt="玫瑰">
+          </h2>
+          <span class="fl">在无声胜有声的诉说中</span>
+        </div>
+        <a href="{{ url_for('cloth') }}" class="fr" title="领略汉服之美" style="margin-right:10px;font-size:20px">
+          <strong>华夏衣冠</strong></a>
+      </div>
+    </div>
+    <!--汉服图片的部分列表-->
+    <ul class="cloth-list">
+      {% if cloth %}
+      {% for c in cloth %}
+      <li title="{{c.title}}">
+        <img src="{{c.src}}" alt="{{c.title}}">
+        <!-- 文字 -->
+        <h2 class="cloth-text">{{c.title}}</h2>
+        <!--渐变背景-->
+        <div class="mask"></div>
+      </li>
+      {% endfor %}
+      {% endif %}
+    </ul>
+  </div>
+  <!--底部模块-->
+  <footer class="cloth-footer">
+    <!--版心-->
+    <div class="container">
+      <!--左边部分-->
+      <div class="footer-left icon">
+        <p>
+          文化魅力
+          <img src="../static/images/菏泽牡丹.png" alt="菏泽牡丹">
+          是一个
+          致力于传承和弘扬中华优秀传统文化的平台<br><br>
+        </p>
+      </div>
+      <!--右边部分-->
+      <div class="footer-right icon">
+        <h2>个人倾力制作</h2><br>
+        <ul>
+          <li>邮箱:3163880836@qq.com</li><br>
+          <li>
+            版权所有
+            <img src="../static/images/版权.png" alt="版权">
+            <strong>信管2301-刘紫涵-1602230121</strong>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="../static/js/index.js"></script>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>非物质文化遗产</title>
+  <!-- 设置屏幕宽度为设备宽度，初始缩放比例为1.0 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- 定义网站的描述和关键词 -->
+  <meta name="description" content="文化魅力是一个致力于传承和弘扬中华优秀传统文化的平台，提供丰富的古籍典藏、非物质文化遗产和著名诗人的介绍。
+             " />
+  <meta name="keywords" content="
+            文化魅力,中华传统文化,古籍典藏,非物质文化遗产,著名诗人，敦煌壁画，文物珍宝，统计图展
+              " />
+  <!-- 设置网站图标 -->
+  <link rel="shortcut icon" href="../static/favicon.ico" type="image/x-icon">
+  <!-- 导入基础样式 -->
+  <link rel="stylesheet" href="../static/css/base.css">
+  <!-- 导入通用样式 -->
+  <link rel="stylesheet" href="../static/css/common.css">
+  <!-- 导入自定义样式 -->
+  <link rel="stylesheet" href="../static/css/poet_detail.css">
+</head>
+
+<body>
+  <!--头部模块-->
+  <header>
+    <!--首页导航栏-->
+    <nav class="index-nav">
+      <!--网站logo设计-->
+      <h1 class="logo">
+        <a href="#">文化魅力</a>
+      </h1>
+      <!--首页导航栏列表-->
+      <ul class="nav-list">
+        <li><a href="{{ url_for('index') }}">首页</a></li>
+        <li><a href="{{ url_for('book') }}">古籍典藏</a></li>
+        <li class="heritage">
+          <a href="{{ url_for('heritage') }}">非物质文化遗产</a>
+        </li>
+        <li class="poem">
+          <a href="{{ url_for('poet')}}">中国著名诗人</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!--主体模块-->
+  <main>
+    <!--版心-->
+    <div class="container">
+      {% if poet %}
+      {% for p in poet %}
+      <ul class="poet_info">
+        <li class="poet_name">{{p.name}}</li>
+        <li class="poet_dynasty">{{p.dynasty}}</li>
+        <li class="poet_brief">{{p.description}}</li>
+      </ul>
+      <ul class="poems">
+        {% for work_key, work_value in p.works.items() %}
+        <li class="poem_info">
+          <span class="poem_title">{{ work_value.title }}</span>
+          <span class="poem_author">{{work_value.author}}</span>
+          <span class="poem_content">{{work_value.content}}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+      {% endif %}
+    </div>
+  </main>
+  <!--底部模块-->
+  <footer class="cloth-footer">
+    <!--版心-->
+    <div class="container">
+      <!--左边部分-->
+      <div class="footer-left icon">
+        <p>
+          文化魅力
+          <img src="../static/images/菏泽牡丹.png" alt="菏泽牡丹">
+          是一个
+          致力于传承和弘扬中华优秀传统文化的平台<br><br>
+        </p>
+      </div>
+      <!--右边部分-->
+      <div class="footer-right icon">
+        <h2>个人倾力制作</h2><br>
+        <ul>
+          <li>邮箱:3163880836@qq.com</li><br>
+          <li>
+            版权所有
+            <img src="../static/images/版权.png" alt="版权">
+            <strong>信管2301-刘紫涵-1602230121</strong>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>

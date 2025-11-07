@@ -1,0 +1,156 @@
+
+/* ------------------------------------汉服模块-------------------------------------------------------- */
+/* 头部 */
+.cloth-nav{
+    display:flex;
+    height: 40px;
+    padding: 10px;
+    background-image: linear-gradient(rgb(114, 47, 47), #ffffff, rgb(145, 91, 91));
+    justify-content: space-between;
+    align-items: center;
+    color: #5e0b12;
+}
+ /*置顶*/
+ .right-nav{
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+ }
+.right-nav a {
+    display: block;
+    height: 40px;
+    width:40px;
+    font: italic bold 20px/40px "华文行楷";
+    color: #fff;
+    text-align: center;
+    border: 2px solid #f0ecec;
+    border-radius: 20px;
+    background-image: linear-gradient(#16a3f5, #cd8c41);
+}
+
+/* 主要内容的图片显示 */
+.grid {
+    max-width: 60em;
+    margin: 40px auto;
+}
+/* 各个图片盒子的大小设置 */
+.grid li {
+    position: relative;
+    display: block;
+    float: left;
+    padding: 10px 20px 60px;
+    margin-left: 40px;
+    width: 28%;
+    opacity: 0;
+}
+
+.grid li.shown,
+.no-js .grid li,
+.no-cssanimations .grid li {
+    opacity: 1;
+}
+/* 图片设置 */
+.grid li img {
+    outline: none;
+    border: none;
+    display: block;
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+/* 鼠标悬停时图片的放大效果 */
+.grid li:hover img {
+    transform: scale(1.1);
+}
+
+/* 文字设置 */
+.grid li .cloth-text {
+    position: absolute;
+    bottom:10px;
+    color: #5e0b12; 
+    font-size:16px;
+    transition: all 0.5s ease-in-out;
+}
+
+.grid li:hover .cloth-text {
+    bottom:20%;
+    color: #f2f2f2;
+    z-index: 2;
+}
+/* 设置遮盖层 */
+.grid li .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 105%;
+    height: 105%;
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, .6));
+    opacity: 0;
+    transition: all 2s ease-in-out;
+}
+/* 鼠标移入显示遮盖层 */
+.grid li:hover .mask {
+    opacity: 1;
+}
+/* 以下内容是参考瀑布流布局的css代码，用于实现瀑布流布局效果： */
+
+.grid {
+    -webkit-perspective: 1300px;
+    perspective: 1300px;
+}
+
+.grid li.animate {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+    -webkit-animation: popUp .8s ease-in forwards;
+    animation: popUp .8s ease-in forwards;
+}
+
+@-webkit-keyframes popUp {
+    0% {}
+
+    70% {
+        -webkit-transform: scale(1.1);
+        opacity: .8;
+        -webkit-animation-timing-function: ease-out;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes popUp {
+    0% {}
+
+    70% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        opacity: .8;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .grid li {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .grid li {
+        width: 100%;
+    }
+}
+

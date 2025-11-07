@@ -1,0 +1,57 @@
+/* 宝藏容器 */
+.t-container {
+	position:absolute;
+	top:50px;
+	left:0
+}
+/* 图片容器设置 */
+.t-container .t-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 350px;
+	height: 250px;
+	cursor:pointer;
+}
+
+.t-container .t-content img {
+	position: absolute;
+	width:100%;
+}
+
+.t-container .t-content .cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	width: 350px;
+	height: 250px;
+}
+/* 设置按钮容器的位置居中偏下 */
+.b-container {
+	position: absolute;
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	left: 48%;
+	top:50%;
+}
+/* 设置按钮优先级和背景颜色 */
+.b-container .btn {
+	z-index: 9999;
+	width:120px;
+	height: 70px;
+	padding: 5px;
+	font:italic bold 18px "华文行楷";
+	transition: all 0.3s ease-in-out;
+}
+.btn-primary {
+	background-image: linear-gradient(rgb(145, 45, 45), #ffffff);
+	border:0
+}
+.b-container .btn:hover{
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(145, 45, 45));
+	color: #5e0b12;
+	text-decoration: underline;
+}

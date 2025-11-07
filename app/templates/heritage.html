@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>非物质文化遗产</title>
+  <!-- 设置屏幕宽度为设备宽度，初始缩放比例为1.0 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- 定义网站的描述和关键词 -->
+  <meta name="description" content="文化魅力是一个致力于传承和弘扬中华优秀传统文化的平台，提供丰富的古籍典藏、非物质文化遗产和著名诗人的介绍。
+             " />
+  <meta name="keywords" content="
+            文化魅力,中华传统文化,古籍典藏,非物质文化遗产,著名诗人，敦煌壁画，文物珍宝，统计图展
+              " />
+  <!-- 设置网站图标 -->
+  <link rel="shortcut icon" href="../static/favicon.ico" type="image/x-icon">
+  <!-- 导入自定义样式 -->
+  <link rel="stylesheet" href="../static/css/heritage.css">
+</head>
+
+<body class="light">
+  <!--左侧导航栏列表-->
+  <ul class="nav-list">
+    <li><a href="{{url_for('index')}}">首页</a></li>
+    <li><a href="{{url_for('book')}}">古籍典藏</a></li>
+    <li>
+      <a href="javascript:void(0)">非物质文化遗产</a>
+    </li>
+    <li>
+      <a href="{{url_for('poet')}}">中国著名诗人</a>
+    </li>
+  </ul>
+  <!-- 非物质文化遗产列表-->
+  <div class="heritage" style="--n-rows: 3; --n-cols: 6">
+    <style>
+      .hex-cell:nth-of-type(5n + 1) {
+        grid-column-start: 2
+      }
+    </style>
+    <!-- 每个类似蜂巢的非物质文化遗产所以class起名用cell -->
+    {% if heritage %}
+    {% for h in heritage%}
+    <div class="hex-cell">
+      <a href="{{ url_for('heritage_detail') }}" title="{{h.p}}">
+        <img src="{{h.src}}" alt="{{h.p}}">
+      </a>
+    </div>
+    {% endfor %}
+    {% endif %}
+  </div>
+</body>
+
+</html>
